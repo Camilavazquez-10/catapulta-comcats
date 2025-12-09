@@ -1,0 +1,165 @@
+/* ===================================== */
+/*   PALETA DE COLORES CATAPULTA HUB     */
+/* ===================================== */
+
+:root {
+  --rosa: #EC1B6E;
+  --rosa-oscuro: #C8145A;
+  --rosa-suave: #F8B6CF;
+  --rosa-claro: #FFE6EF;
+  --gris-claro: #F7F7F7;
+  --negro-suave: #333;
+  --blanco: #fff;
+}
+
+/* ===================================== */
+/*   ESTILO GLOBAL                       */
+/* ===================================== */
+
+body {
+  background-color: var(--gris-claro);
+  font-family: "Poppins", sans-serif;
+  color: var(--negro-suave);
+}
+
+/* Banner */
+#banner {
+  background-color: var(--rosa);
+  color: var(--blanco);
+}
+
+/* Navbar */
+.navbar {
+  background-color: var(--blanco) !important;
+  border-bottom: 2px solid var(--rosa-suave);
+}
+
+.navbar-brand span,
+.nav-link {
+  color: var(--negro-suave) !important;
+  font-weight: 500;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: var(--rosa) !important;
+}
+
+/* ===================================== */
+/*   BOTONES                             */
+/* ===================================== */
+
+.btn-primary {
+  background-color: var(--rosa) !important;
+  border-color: var(--rosa) !important;
+  color: var(--blanco) !important;
+}
+
+.btn-primary:hover {
+  background-color: var(--rosa-oscuro) !important;
+}
+
+.btn-success,
+.btn-info,
+.btn-warning {
+  background-color: var(--rosa) !important;
+  border-color: var(--rosa) !important;
+  color: var(--blanco) !important;
+}
+
+.btn-success:hover,
+.btn-info:hover,
+.btn-warning:hover {
+  background-color: var(--rosa-oscuro) !important;
+}
+
+/* ===================================== */
+/*   TARJETAS Y SECCIONES                */
+/* ===================================== */
+
+.bg-light {
+  background-color: var(--rosa-claro) !important;
+}
+
+.card,
+.testimonio-vip {
+  border: 1.5px solid var(--rosa-suave);
+  background-color: var(--blanco);
+  border-radius: 12px;
+  transition: transform 0.2s;
+}
+
+.card:hover,
+.testimonio-vip:hover {
+  transform: scale(1.02);
+  border-color: var(--rosa);
+}
+
+/* ===================================== */
+/*   FORMULARIO                          */
+/* ===================================== */
+
+form {
+  background-color: var(--blanco) !important;
+  border: 1.8px solid var(--rosa-suave) !important;
+  border-radius: 12px;
+}
+
+.form-label {
+  color: var(--rosa-oscuro);
+  font-weight: 600;
+}
+
+.form-control,
+.form-select,
+textarea {
+  background-color: var(--rosa-claro);
+  border: 1.4px solid var(--rosa-suave);
+  color: var(--negro-suave);
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: var(--rosa);
+  box-shadow: 0 0 6px var(--rosa-suave);
+}
+
+/* Checkbox */
+.form-check-label {
+  color: var(--negro-suave);
+}
+
+.form-check-input:checked {
+  background-color: var(--rosa);
+  border-color: var(--rosa);
+}
+
+/* ===================================== */
+/*   CAROUSEL                            */
+/* ===================================== */
+
+.carousel-indicators button {
+  background-color: var(--rosa) !important;
+}
+
+/* ===================================== */
+/*   WHATSAPP FLOTANTE                   */
+/* ===================================== */
+
+.whatsapp-float {
+  background-color: #25d366 !important;
+}
+
+/* ===================================== */
+/*   FOOTER                              */
+/* ===================================== */
+
+footer {
+  background-color: var(--negro-suave) !important;
+  color: var(--blanco);
+}
+
+footer a:hover {
+  color: var(--rosa) !important;
+}
+
